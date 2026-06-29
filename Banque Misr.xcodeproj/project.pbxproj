@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51C9743F2F4E43230064514A /* CoreBankingAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C9743E2F4E43230064514A /* CoreBankingAPI.framework */; };
+		51C974402F4E43230064514A /* CoreBankingAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51C9743E2F4E43230064514A /* CoreBankingAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51C974432F4E43280064514A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C974422F4E43280064514A /* DesignSystem.framework */; };
+		51C974442F4E43280064514A /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51C974422F4E43280064514A /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69973037E5BB3C7FAAE5F7A5 /* Pods_Banque_MisrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11D0FDF8D9DB5652425D41 /* Pods_Banque_MisrUITests.framework */; };
+		9011823807A1F5E0CF156CAD /* Pods_Banque_Misr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB3FE802189CB541B13C606 /* Pods_Banque_Misr.framework */; };
+		CAD39B559A667A087F05A42C /* Pods_Banque_MisrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8FFE47AD9FECC667B92769 /* Pods_Banque_MisrTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516DF6AD2F0544A700F3F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516DF68B2F0544A500F3F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516DF6922F0544A500F3F05F;
+			remoteInfo = "Banque Misr";
+		};
+		516DF6B72F0544A700F3F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516DF68B2F0544A500F3F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516DF6922F0544A500F3F05F;
+			remoteInfo = "Banque Misr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51C974412F4E43230064514A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				51C974402F4E43230064514A /* CoreBankingAPI.framework in Embed Frameworks */,
+				51C974442F4E43280064514A /* DesignSystem.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F5D8D3E2E6D45265053998D /* Pods-Banque Misr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque Misr.debug.xcconfig"; path = "Target Support Files/Pods-Banque Misr/Pods-Banque Misr.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD6A306337CCA1450078F57 /* Pods-Banque MisrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque MisrUITests.release.xcconfig"; path = "Target Support Files/Pods-Banque MisrUITests/Pods-Banque MisrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48EDA1B6BA6ACB2AABCEABC3 /* Pods-Banque MisrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque MisrTests.release.xcconfig"; path = "Target Support Files/Pods-Banque MisrTests/Pods-Banque MisrTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D11D0FDF8D9DB5652425D41 /* Pods_Banque_MisrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Banque_MisrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2E3E1FC600AAEF4CA00703 /* Pods-Banque Misr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque Misr.release.xcconfig"; path = "Target Support Files/Pods-Banque Misr/Pods-Banque Misr.release.xcconfig"; sourceTree = "<group>"; };
+		513AF08B2F4E40C200872137 /* Banque_Misr_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Banque_Misr_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513AF08F2F4E40CC00872137 /* Banque_Misr_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Banque_Misr_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513FF71F2F4E55EB009C196D /* MOLH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MOLH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DF6932F0544A500F3F05F /* Banque Misr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banque Misr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DF6AC2F0544A700F3F05F /* Banque MisrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Banque MisrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DF6B62F0544A700F3F05F /* Banque MisrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Banque MisrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C9743E2F4E43230064514A /* CoreBankingAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreBankingAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C974422F4E43280064514A /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C9746A2F4E46810064514A /* MOLH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MOLH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C6F54F0B6DA1AEFEA312A1 /* Pods-Banque Misr-Banque MisrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque Misr-Banque MisrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Banque Misr-Banque MisrUITests/Pods-Banque Misr-Banque MisrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		580617DE212E8BD2AB5FFC10 /* Pods-Banque MisrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque MisrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Banque MisrUITests/Pods-Banque MisrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B22C2812F550D081C608879 /* Pods-Banque Misr-Banque MisrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque Misr-Banque MisrUITests.release.xcconfig"; path = "Target Support Files/Pods-Banque Misr-Banque MisrUITests/Pods-Banque Misr-Banque MisrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AB3FE802189CB541B13C606 /* Pods_Banque_Misr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Banque_Misr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A723FDD321C1E5FD5724885D /* Pods-Banque MisrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banque MisrTests.debug.xcconfig"; path = "Target Support Files/Pods-Banque MisrTests/Pods-Banque MisrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8FFE47AD9FECC667B92769 /* Pods_Banque_MisrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Banque_MisrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		516DF6BE2F0544A700F3F05F /* Exceptions for "Banque Misr" folder in "Banque Misr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 516DF6922F0544A500F3F05F /* Banque Misr */;
+		};
+		516DF6F62F0550BC00F3F05F /* Exceptions for "Banque Misr" folder in "Banque MisrTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Fonts/Cairo/Cairo-Bold.ttf",
+				"Resources/Fonts/Cairo/Cairo-Light.ttf",
+				"Resources/Fonts/Cairo/Cairo-Medium.ttf",
+				"Resources/Fonts/Cairo/Cairo-Regular.ttf",
+				"Resources/Fonts/Cairo/Cairo-SemiBold.ttf",
+			);
+			target = 516DF6AB2F0544A700F3F05F /* Banque MisrTests */;
+		};
+		516DF6F72F0550BC00F3F05F /* Exceptions for "Banque Misr" folder in "Banque MisrUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Fonts/Cairo/Cairo-Bold.ttf",
+				"Resources/Fonts/Cairo/Cairo-Light.ttf",
+				"Resources/Fonts/Cairo/Cairo-Medium.ttf",
+				"Resources/Fonts/Cairo/Cairo-Regular.ttf",
+				"Resources/Fonts/Cairo/Cairo-SemiBold.ttf",
+			);
+			target = 516DF6B52F0544A700F3F05F /* Banque MisrUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		516DF6952F0544A500F3F05F /* Banque Misr */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				516DF6BE2F0544A700F3F05F /* Exceptions for "Banque Misr" folder in "Banque Misr" target */,
+				516DF6F62F0550BC00F3F05F /* Exceptions for "Banque Misr" folder in "Banque MisrTests" target */,
+				516DF6F72F0550BC00F3F05F /* Exceptions for "Banque Misr" folder in "Banque MisrUITests" target */,
+			);
+			path = "Banque Misr";
+			sourceTree = "<group>";
+		};
+		516DF6AF2F0544A700F3F05F /* Banque MisrTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Banque MisrTests";
+			sourceTree = "<group>";
+		};
+		516DF6B92F0544A700F3F05F /* Banque MisrUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Banque MisrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516DF6902F0544A500F3F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C974432F4E43280064514A /* DesignSystem.framework in Frameworks */,
+				9011823807A1F5E0CF156CAD /* Pods_Banque_Misr.framework in Frameworks */,
+				51C9743F2F4E43230064514A /* CoreBankingAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6A92F0544A700F3F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD39B559A667A087F05A42C /* Pods_Banque_MisrTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6B32F0544A700F3F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69973037E5BB3C7FAAE5F7A5 /* Pods_Banque_MisrUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B6663AF6E7E0391092EF29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5D8D3E2E6D45265053998D /* Pods-Banque Misr.debug.xcconfig */,
+				4D2E3E1FC600AAEF4CA00703 /* Pods-Banque Misr.release.xcconfig */,
+				56C6F54F0B6DA1AEFEA312A1 /* Pods-Banque Misr-Banque MisrUITests.debug.xcconfig */,
+				7B22C2812F550D081C608879 /* Pods-Banque Misr-Banque MisrUITests.release.xcconfig */,
+				A723FDD321C1E5FD5724885D /* Pods-Banque MisrTests.debug.xcconfig */,
+				48EDA1B6BA6ACB2AABCEABC3 /* Pods-Banque MisrTests.release.xcconfig */,
+				580617DE212E8BD2AB5FFC10 /* Pods-Banque MisrUITests.debug.xcconfig */,
+				2FD6A306337CCA1450078F57 /* Pods-Banque MisrUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		516DF68A2F0544A500F3F05F = {
+			isa = PBXGroup;
+			children = (
+				516DF6952F0544A500F3F05F /* Banque Misr */,
+				516DF6AF2F0544A700F3F05F /* Banque MisrTests */,
+				516DF6B92F0544A700F3F05F /* Banque MisrUITests */,
+				516DF6942F0544A500F3F05F /* Products */,
+				25B6663AF6E7E0391092EF29 /* Pods */,
+				EF4863AD00D8E45F8982BCF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		516DF6942F0544A500F3F05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516DF6932F0544A500F3F05F /* Banque Misr.app */,
+				516DF6AC2F0544A700F3F05F /* Banque MisrTests.xctest */,
+				516DF6B62F0544A700F3F05F /* Banque MisrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4863AD00D8E45F8982BCF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513FF71F2F4E55EB009C196D /* MOLH.framework */,
+				51C9746A2F4E46810064514A /* MOLH.framework */,
+				51C974422F4E43280064514A /* DesignSystem.framework */,
+				51C9743E2F4E43230064514A /* CoreBankingAPI.framework */,
+				513AF08F2F4E40CC00872137 /* Banque_Misr_UI.framework */,
+				513AF08B2F4E40C200872137 /* Banque_Misr_API.framework */,
+				8AB3FE802189CB541B13C606 /* Pods_Banque_Misr.framework */,
+				FF8FFE47AD9FECC667B92769 /* Pods_Banque_MisrTests.framework */,
+				4D11D0FDF8D9DB5652425D41 /* Pods_Banque_MisrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516DF6922F0544A500F3F05F /* Banque Misr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DF6BF2F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque Misr" */;
+			buildPhases = (
+				3921010C2BE20F42F03353B7 /* [CP] Check Pods Manifest.lock */,
+				516DF68F2F0544A500F3F05F /* Sources */,
+				516DF6902F0544A500F3F05F /* Frameworks */,
+				516DF6912F0544A500F3F05F /* Resources */,
+				DE7EA7AB81C57206D4474DDE /* [CP] Embed Pods Frameworks */,
+				51C974412F4E43230064514A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				516DF6952F0544A500F3F05F /* Banque Misr */,
+			);
+			name = "Banque Misr";
+			productName = "Banque Misr";
+			productReference = 516DF6932F0544A500F3F05F /* Banque Misr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516DF6AB2F0544A700F3F05F /* Banque MisrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DF6C42F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque MisrTests" */;
+			buildPhases = (
+				DB7BF282712906012B9DA79F /* [CP] Check Pods Manifest.lock */,
+				516DF6A82F0544A700F3F05F /* Sources */,
+				516DF6A92F0544A700F3F05F /* Frameworks */,
+				516DF6AA2F0544A700F3F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516DF6AE2F0544A700F3F05F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				516DF6AF2F0544A700F3F05F /* Banque MisrTests */,
+			);
+			name = "Banque MisrTests";
+			productName = "Banque MisrTests";
+			productReference = 516DF6AC2F0544A700F3F05F /* Banque MisrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516DF6B52F0544A700F3F05F /* Banque MisrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DF6C72F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque MisrUITests" */;
+			buildPhases = (
+				22501FC7E424BB59FDAC4476 /* [CP] Check Pods Manifest.lock */,
+				516DF6B22F0544A700F3F05F /* Sources */,
+				516DF6B32F0544A700F3F05F /* Frameworks */,
+				516DF6B42F0544A700F3F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516DF6B82F0544A700F3F05F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				516DF6B92F0544A700F3F05F /* Banque MisrUITests */,
+			);
+			name = "Banque MisrUITests";
+			productName = "Banque MisrUITests";
+			productReference = 516DF6B62F0544A700F3F05F /* Banque MisrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516DF68B2F0544A500F3F05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					516DF6922F0544A500F3F05F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					516DF6AB2F0544A700F3F05F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 516DF6922F0544A500F3F05F;
+					};
+					516DF6B52F0544A700F3F05F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 516DF6922F0544A500F3F05F;
+					};
+				};
+			};
+			buildConfigurationList = 516DF68E2F0544A500F3F05F /* Build configuration list for PBXProject "Banque Misr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 516DF68A2F0544A500F3F05F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 516DF6942F0544A500F3F05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516DF6922F0544A500F3F05F /* Banque Misr */,
+				516DF6AB2F0544A700F3F05F /* Banque MisrTests */,
+				516DF6B52F0544A700F3F05F /* Banque MisrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516DF6912F0544A500F3F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6AA2F0544A700F3F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6B42F0544A700F3F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22501FC7E424BB59FDAC4476 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Banque MisrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3921010C2BE20F42F03353B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Banque Misr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7BF282712906012B9DA79F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Banque MisrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7EA7AB81C57206D4474DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banque Misr/Pods-Banque Misr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Banque Misr/Pods-Banque Misr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Banque Misr/Pods-Banque Misr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516DF68F2F0544A500F3F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6A82F0544A700F3F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DF6B22F0544A700F3F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516DF6AE2F0544A700F3F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516DF6922F0544A500F3F05F /* Banque Misr */;
+			targetProxy = 516DF6AD2F0544A700F3F05F /* PBXContainerItemProxy */;
+		};
+		516DF6B82F0544A700F3F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516DF6922F0544A500F3F05F /* Banque Misr */;
+			targetProxy = 516DF6B72F0544A700F3F05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		516DF6C02F0544A700F3F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5D8D3E2E6D45265053998D /* Pods-Banque Misr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33N238P7FR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Banque Misr/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-Misr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516DF6C12F0544A700F3F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2E3E1FC600AAEF4CA00703 /* Pods-Banque Misr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33N238P7FR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Banque Misr/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-Misr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		516DF6C22F0544A700F3F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516DF6C32F0544A700F3F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516DF6C52F0544A700F3F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A723FDD321C1E5FD5724885D /* Pods-Banque MisrTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-MisrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banque Misr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Banque Misr";
+			};
+			name = Debug;
+		};
+		516DF6C62F0544A700F3F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EDA1B6BA6ACB2AABCEABC3 /* Pods-Banque MisrTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-MisrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banque Misr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Banque Misr";
+			};
+			name = Release;
+		};
+		516DF6C82F0544A700F3F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580617DE212E8BD2AB5FFC10 /* Pods-Banque MisrUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-MisrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Banque Misr";
+			};
+			name = Debug;
+		};
+		516DF6C92F0544A700F3F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD6A306337CCA1450078F57 /* Pods-Banque MisrUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.Banque-MisrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Banque Misr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516DF68E2F0544A500F3F05F /* Build configuration list for PBXProject "Banque Misr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DF6C22F0544A700F3F05F /* Debug */,
+				516DF6C32F0544A700F3F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DF6BF2F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque Misr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DF6C02F0544A700F3F05F /* Debug */,
+				516DF6C12F0544A700F3F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DF6C42F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque MisrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DF6C52F0544A700F3F05F /* Debug */,
+				516DF6C62F0544A700F3F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DF6C72F0544A700F3F05F /* Build configuration list for PBXNativeTarget "Banque MisrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DF6C82F0544A700F3F05F /* Debug */,
+				516DF6C92F0544A700F3F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516DF68B2F0544A500F3F05F /* Project object */;
+}

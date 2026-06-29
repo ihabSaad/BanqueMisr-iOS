@@ -1,0 +1,105 @@
+/* 
+  Localizable.strings
+  Banque Misr
+
+  Created by ihab saad on 25/02/2026.
+  
+*/
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: ONBOARDING                                        */
+/* --------------------------------------------------------- */
+
+"OnBoarding.Title.1"       = "تحويلات مالية سريعة وذكية";
+"OnBoarding.Desc.1"        = "أرسل الأموال لأي حساب بنكي أو محفظة إلكترونية في ثوانٍ. نوفر لك تجربة سلسة تقدر وقتك وتواكب حياتك اليومية.";
+
+"OnBoarding.Title.2"       = "تحكم كامل في حساباتك";
+"OnBoarding.Desc.2"        = "إدارة حساباتك محلياً ودولياً بكل سهولة. تجربة مصرفية آمنة وموثوقة تلبي احتياجاتك أينما كنت.";
+
+"OnBoarding.Title.3"       = "أمان مضمون بلا حدود";
+"OnBoarding.Desc.3"        = "نحمي أموالك وبياناتك بتشفير عالمي المستوى، لتتمكن من إجراء معاملتك بثقة واطمئنان.";
+
+/* Buttons */
+"OnBoarding.Button.Skip"       = "تخطي";
+"OnBoarding.Button.Next"       = "التالي";
+"OnBoarding.Button.GetStarted" = "ابدأ الآن";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: INTRODUCTION                                      */
+/* --------------------------------------------------------- */
+
+"Intro.Title"              = "خدمات بنكية آمنة تبدأ من هنا";
+"Intro.Desc"               = "سجل الدخول لإدارة معاملاتك المالية، أو قم بإنشاء حساب جديد لتجربة بنكية آمنة.";
+
+/* Actions */
+"Intro.Button.SignIn"      = "تسجيل الدخول";
+"Intro.Label.NoAccount"    = "ليس لديك حساب؟";
+"Intro.Button.SignUp"      = "سجل الآن";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: LOGIN                                             */
+/* --------------------------------------------------------- */
+
+"Login.Title"              = "أهلاً بك في بنك مصر";
+"Login.SubTitle"           = "برجاء استكمال بيانات ملفك الشخصي";
+
+/* Fields */
+"Login.Label.Email"        = "البريد الإلكتروني";
+"Login.Placeholder.Email"  = "أدخل البريد الإلكتروني الخاص بك";
+
+"Login.Label.Password"     = "كلمة المرور";
+"Login.Placeholder.Pass"   = "أدخل كلمة المرور";
+
+/* Actions */
+"Login.Button.SignIn"      = "تسجيل الدخول";
+"Login.Label.NoAccount"    = "ليس لديك حساب؟";
+"Login.Button.SignUp"      = "فتح حساب جديد";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: REGISTER                                          */
+/* --------------------------------------------------------- */
+
+"Register.Title"           = "انضم لأكبر بنك رقمي في مصر";
+"Register.SubTitle"        = "ثقة ملايين العملاء في أسرع وأمن تحويلات بنكية عالمية";
+
+/* Form Fields */
+"Register.Label.Name"      = "الاسم بالكامل";
+"Register.Placeholder.Name"= "ادخل اسمك بالكامل كما في البطاقة";
+
+"Register.Label.Email"     = "البريد الإلكتروني";
+"Register.Placeholder.Email"= "ادخل بريدك الإلكتروني";
+
+"Register.Label.Pass"      = "كلمة المرور";
+"Register.Placeholder.Pass"= "ادخل كلمة المرور الخاصة بك";
+
+"Register.Label.Confirm"   = "تأكيد كلمة المرور";
+"Register.Placeholder.Conf"= "اعد كتابة كلمة المرور للتأكيد";
+
+/* Actions */
+"Register.Button.Continue" = "استمرار";
+"Register.Label.HasAccount"= "عندك حساب بالفعل؟";
+"Register.Button.SignIn"   = "تسجيل الدخول";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: COMPLETE PROFILE                                  */
+/* --------------------------------------------------------- */
+
+"CompleteProfile.Title"               = "استكمال بيانات الحساب";
+"CompleteProfile.SubTitle"            = "يرجى إتمام البيانات المطلوبة لتفعيل حسابكم الرقمي";
+
+/* Form Fields */
+"CompleteProfile.Label.Country"       = " رقم الهاتف ";
+"CompleteProfile.Placeholder.Country" = " ادخل رقم الهاتف";
+
+"CompleteProfile.Label.BirthDate"     = "تاريخ الميلاد";
+"CompleteProfile.Placeholder.DOB"     = "يوم / شهر / سنة";
+
+/* Actions */
+"CompleteProfile.Button.SignUp"       = "إنشاء الحساب";
+"CompleteProfile.Label.HasAccount"    = "عندك حساب بالفعل؟";
+"CompleteProfile.Button.SignIn"       = "تسجيل الدخول";

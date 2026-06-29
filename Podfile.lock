@@ -1,0 +1,30 @@
+PODS:
+  - MOLH (1.4.3)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+
+DEPENDENCIES:
+  - MOLH
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - MOLH
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+
+PODFILE CHECKSUM: 79a126505d715de979e61d326e719ca644473e7b
+
+COCOAPODS: 1.16.2

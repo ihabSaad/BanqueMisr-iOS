@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510B4E0D2F9A677900862669 /* BankAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B4E0C2F9A677900862669 /* BankAlertManager.swift */; };
+		518F7DBF2F9A8DD50055DCBC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F7DBE2F9A8DD50055DCBC /* CardView.swift */; };
+		51A098652F50428200B5D889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A098622F50428200B5D889 /* Assets.xcassets */; };
+		51A098662F50428200B5D889 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A098572F50428200B5D889 /* Cairo-Light.ttf */; };
+		51A098672F50428200B5D889 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A0985C2F50428200B5D889 /* Tajawal-Bold.ttf */; };
+		51A098682F50428200B5D889 /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A0985D2F50428200B5D889 /* Tajawal-Light.ttf */; };
+		51A098692F50428200B5D889 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A098592F50428200B5D889 /* Cairo-Regular.ttf */; };
+		51A0986A2F50428200B5D889 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A0985E2F50428200B5D889 /* Tajawal-Medium.ttf */; };
+		51A0986B2F50428200B5D889 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A098562F50428200B5D889 /* Cairo-Bold.ttf */; };
+		51A0986C2F50428200B5D889 /* Cairo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A098582F50428200B5D889 /* Cairo-Medium.ttf */; };
+		51A0986D2F50428200B5D889 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A0985F2F50428200B5D889 /* Tajawal-Regular.ttf */; };
+		51A0986E2F50428200B5D889 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A0985A2F50428200B5D889 /* Cairo-SemiBold.ttf */; };
+		51A0986F2F50428200B5D889 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A098632F50428200B5D889 /* Colors.xcassets */; };
+		51A098752F5042EC00B5D889 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A098742F5042EC00B5D889 /* PrimaryButton.swift */; };
+		51A0987C2F5064FA00B5D889 /* UITextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0987B2F5064FA00B5D889 /* UITextFields.swift */; };
+		51A098822F506B2C00B5D889 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A098812F506B2C00B5D889 /* UIView.swift */; };
+		51C1662C2F65EDF7002407AB /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1662B2F65EDF7002407AB /* UIViewController.swift */; };
+		98DD15025B529FC21A4EBB18 /* Pods_DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A816EE715E4385A3A5344F /* Pods_DesignSystem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		510B4E0C2F9A677900862669 /* BankAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAlertManager.swift; sourceTree = "<group>"; };
+		5121CEAC2F4E426E001272A9 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518F7DBE2F9A8DD50055DCBC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		51A098562F50428200B5D889 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		51A098572F50428200B5D889 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		51A098582F50428200B5D889 /* Cairo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		51A098592F50428200B5D889 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		51A0985A2F50428200B5D889 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		51A0985C2F50428200B5D889 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		51A0985D2F50428200B5D889 /* Tajawal-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Light.ttf"; sourceTree = "<group>"; };
+		51A0985E2F50428200B5D889 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		51A0985F2F50428200B5D889 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		51A098622F50428200B5D889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A098632F50428200B5D889 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		51A098742F5042EC00B5D889 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		51A0987B2F5064FA00B5D889 /* UITextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFields.swift; sourceTree = "<group>"; };
+		51A098812F506B2C00B5D889 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		51C1662B2F65EDF7002407AB /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		83A816EE715E4385A3A5344F /* Pods_DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972D5A380239FE00234B5E0C /* Pods-DesignSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignSystem.release.xcconfig"; path = "Target Support Files/Pods-DesignSystem/Pods-DesignSystem.release.xcconfig"; sourceTree = "<group>"; };
+		DBBA47A0FC0EE5976EBB78EA /* Pods-DesignSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignSystem.debug.xcconfig"; path = "Target Support Files/Pods-DesignSystem/Pods-DesignSystem.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5121CEAE2F4E426E001272A9 /* DesignSystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5121CEA92F4E426E001272A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DD15025B529FC21A4EBB18 /* Pods_DesignSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510B4E0B2F9A677100862669 /* BankAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				510B4E0C2F9A677900862669 /* BankAlertManager.swift */,
+			);
+			path = BankAlertManager;
+			sourceTree = "<group>";
+		};
+		5121CEA22F4E426E001272A9 = {
+			isa = PBXGroup;
+			children = (
+				51A098722F5042AC00B5D889 /* Components */,
+				51A098642F50428200B5D889 /* Resources */,
+				5121CEAE2F4E426E001272A9 /* DesignSystem */,
+				5121CEAD2F4E426E001272A9 /* Products */,
+				AB2F32A8535C5F282AC62D42 /* Pods */,
+				6C20FD84520AE58E823C6EC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5121CEAD2F4E426E001272A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5121CEAC2F4E426E001272A9 /* DesignSystem.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518F7DBD2F9A8DB90055DCBC /* AppStyle */ = {
+			isa = PBXGroup;
+			children = (
+				518F7DBE2F9A8DD50055DCBC /* CardView.swift */,
+			);
+			path = AppStyle;
+			sourceTree = "<group>";
+		};
+		51A0985B2F50428200B5D889 /* Cairo */ = {
+			isa = PBXGroup;
+			children = (
+				51A098562F50428200B5D889 /* Cairo-Bold.ttf */,
+				51A098572F50428200B5D889 /* Cairo-Light.ttf */,
+				51A098582F50428200B5D889 /* Cairo-Medium.ttf */,
+				51A098592F50428200B5D889 /* Cairo-Regular.ttf */,
+				51A0985A2F50428200B5D889 /* Cairo-SemiBold.ttf */,
+			);
+			path = Cairo;
+			sourceTree = "<group>";
+		};
+		51A098602F50428200B5D889 /* Tajawal */ = {
+			isa = PBXGroup;
+			children = (
+				51A0985C2F50428200B5D889 /* Tajawal-Bold.ttf */,
+				51A0985D2F50428200B5D889 /* Tajawal-Light.ttf */,
+				51A0985E2F50428200B5D889 /* Tajawal-Medium.ttf */,
+				51A0985F2F50428200B5D889 /* Tajawal-Regular.ttf */,
+			);
+			path = Tajawal;
+			sourceTree = "<group>";
+		};
+		51A098612F50428200B5D889 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51A0985B2F50428200B5D889 /* Cairo */,
+				51A098602F50428200B5D889 /* Tajawal */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51A098642F50428200B5D889 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51A098612F50428200B5D889 /* Fonts */,
+				51A098702F50429100B5D889 /* Assets */,
+				51A098712F50429F00B5D889 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		51A098702F50429100B5D889 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				51A098622F50428200B5D889 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		51A098712F50429F00B5D889 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				51A098632F50428200B5D889 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		51A098722F5042AC00B5D889 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				518F7DBD2F9A8DB90055DCBC /* AppStyle */,
+				51C1662A2F65EDD5002407AB /* UiViewController */,
+				51A0987E2F506B0B00B5D889 /* UIView */,
+				51A098732F5042C800B5D889 /* UIButton */,
+				51A0987D2F506AF700B5D889 /* UITextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51A098732F5042C800B5D889 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				51A098742F5042EC00B5D889 /* PrimaryButton.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		51A0987D2F506AF700B5D889 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				51A0987B2F5064FA00B5D889 /* UITextFields.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		51A0987E2F506B0B00B5D889 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				51A098812F506B2C00B5D889 /* UIView.swift */,
+				510B4E0B2F9A677100862669 /* BankAlertManager */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		51C1662A2F65EDD5002407AB /* UiViewController */ = {
+			isa = PBXGroup;
+			children = (
+				51C1662B2F65EDF7002407AB /* UIViewController.swift */,
+			);
+			path = UiViewController;
+			sourceTree = "<group>";
+		};
+		6C20FD84520AE58E823C6EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A816EE715E4385A3A5344F /* Pods_DesignSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB2F32A8535C5F282AC62D42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA47A0FC0EE5976EBB78EA /* Pods-DesignSystem.debug.xcconfig */,
+				972D5A380239FE00234B5E0C /* Pods-DesignSystem.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5121CEA72F4E426E001272A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5121CEAB2F4E426E001272A9 /* DesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5121CEB32F4E426E001272A9 /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildPhases = (
+				A84438B9CF8660EA265FFA2C /* [CP] Check Pods Manifest.lock */,
+				5121CEA72F4E426E001272A9 /* Headers */,
+				5121CEA82F4E426E001272A9 /* Sources */,
+				5121CEA92F4E426E001272A9 /* Frameworks */,
+				5121CEAA2F4E426E001272A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5121CEAE2F4E426E001272A9 /* DesignSystem */,
+			);
+			name = DesignSystem;
+			productName = DesignSystem;
+			productReference = 5121CEAC2F4E426E001272A9 /* DesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5121CEA32F4E426E001272A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					5121CEAB2F4E426E001272A9 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 5121CEA62F4E426E001272A9 /* Build configuration list for PBXProject "DesignSystem" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5121CEA22F4E426E001272A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5121CEAD2F4E426E001272A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5121CEAB2F4E426E001272A9 /* DesignSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5121CEAA2F4E426E001272A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A098652F50428200B5D889 /* Assets.xcassets in Resources */,
+				51A098662F50428200B5D889 /* Cairo-Light.ttf in Resources */,
+				51A098672F50428200B5D889 /* Tajawal-Bold.ttf in Resources */,
+				51A098682F50428200B5D889 /* Tajawal-Light.ttf in Resources */,
+				51A098692F50428200B5D889 /* Cairo-Regular.ttf in Resources */,
+				51A0986A2F50428200B5D889 /* Tajawal-Medium.ttf in Resources */,
+				51A0986B2F50428200B5D889 /* Cairo-Bold.ttf in Resources */,
+				51A0986C2F50428200B5D889 /* Cairo-Medium.ttf in Resources */,
+				51A0986D2F50428200B5D889 /* Tajawal-Regular.ttf in Resources */,
+				51A0986E2F50428200B5D889 /* Cairo-SemiBold.ttf in Resources */,
+				51A0986F2F50428200B5D889 /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A84438B9CF8660EA265FFA2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5121CEA82F4E426E001272A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518F7DBF2F9A8DD50055DCBC /* CardView.swift in Sources */,
+				51A098822F506B2C00B5D889 /* UIView.swift in Sources */,
+				51A098752F5042EC00B5D889 /* PrimaryButton.swift in Sources */,
+				51A0987C2F5064FA00B5D889 /* UITextFields.swift in Sources */,
+				510B4E0D2F9A677900862669 /* BankAlertManager.swift in Sources */,
+				51C1662C2F65EDF7002407AB /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5121CEB12F4E426E001272A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5121CEB22F4E426E001272A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5121CEB42F4E426E001272A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBA47A0FC0EE5976EBB78EA /* Pods-DesignSystem.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.DesignSystem";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5121CEB52F4E426E001272A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972D5A380239FE00234B5E0C /* Pods-DesignSystem.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.DesignSystem";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5121CEA62F4E426E001272A9 /* Build configuration list for PBXProject "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5121CEB12F4E426E001272A9 /* Debug */,
+				5121CEB22F4E426E001272A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5121CEB32F4E426E001272A9 /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5121CEB42F4E426E001272A9 /* Debug */,
+				5121CEB52F4E426E001272A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5121CEA32F4E426E001272A9 /* Project object */;
+}

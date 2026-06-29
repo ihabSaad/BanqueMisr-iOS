@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  Banque Misr
+  Created by ihab saad on 25/02/2026.
+*/
+
+
+/* --------------------------------------------------------- */
+/* SCREEN:   OnBoardingViewController                          */
+/* --------------------------------------------------------- */
+
+"OnBoarding.Title.1"       = "Lightning-Fast Money Transfers";
+"OnBoarding.Desc.1"        = "Send money instantly to any bank or wallet. Save time and enjoy a seamless, secure banking experience.";
+
+"OnBoarding.Title.2"       = "Seamless Global Access";
+"OnBoarding.Desc.2"        = "Manage your finances effortlessly across borders. Safe, reliable, and tailored to your lifestyle anywhere in the world.";
+
+"OnBoarding.Title.3"       = "Banking with Confidence";
+"OnBoarding.Desc.3"        = "Your money and data are fully protected with world-class encryption. Transfer funds securely, anytime, with peace of mind.";
+
+/* Buttons */
+"OnBoarding.Button.Skip"       = "Skip";
+"OnBoarding.Button.Next"       = "Next";
+"OnBoarding.Button.GetStarted" = "Get Started";
+
+/* --------------------------------------------------------- */
+/* SCREEN: INTRODUCTION                                      */
+/* --------------------------------------------------------- */
+
+"Intro.Title"              = "Secure Banking Starts Here";
+"Intro.Desc"               = "Log in to manage your finances or sign up to begin your secure banking experience.";
+
+/* Actions */
+"Intro.Button.SignIn"      = "Sign In";
+"Intro.Label.NoAccount"    = "Don’t have an account";
+"Intro.Button.SignUp"      = "Sign Up";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: LOGIN                                             */
+/* --------------------------------------------------------- */
+
+"Login.Title"              = "Welcome to Banque Misr!";
+"Login.SubTitle" = "Login to your account to manage your finances.";
+
+/* Fields */
+"Login.Label.Email"        = "Email";
+"Login.Placeholder.Email"  = "Enter your email address";
+
+"Login.Label.Password"     = "Password";
+"Login.Placeholder.Pass"   = "Enter your password";
+
+/* Actions */
+"Login.Button.SignIn"      = "Sign In";
+"Login.Label.NoAccount"    = "Don’t have an account";
+"Login.Button.SignUp"      = "Sign Up";
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: REGISTER                                          */
+/* --------------------------------------------------------- */
+
+"Register.Title"           = "Join Egypt's Leading Digital Bank";
+"Register.SubTitle"        = "Trusted by millions for secure and smart global transfers";
+
+/* Form Fields */
+"Register.Label.Name"      = "Full Name";
+"Register.Placeholder.Name" = "Enter your Full Name";
+
+"Register.Label.Email"       = "Email";
+"Register.Placeholder.Email" = "Enter your email address";
+
+"Register.Label.Pass"       = "Password";
+"Register.Placeholder.Pass" = "Enter your Password";
+
+"Register.Label.Confirm"    = "Confirm Password";
+"Register.Placeholder.Conf" = "Enter your password";
+
+/* Actions */
+"Register.Button.Continue"  = "Continue";
+"Register.Label.HasAccount" = "Already have an account?";
+"Register.Button.SignIn"    = "Sign In";
+
+
+
+/* --------------------------------------------------------- */
+/* SCREEN: COMPLETE PROFILE                                  */
+/* --------------------------------------------------------- */
+
+"CompleteProfile.Title"               = "Complete Profile";
+"CompleteProfile.SubTitle"            = "Finalize your information to access your digital account";
+
+/* Form Fields */
+"CompleteProfile.Label.Country"       = "Phone Number";
+"CompleteProfile.Placeholder.Country" = "Enter your Phone Number";
+
+"CompleteProfile.Label.BirthDate"     = "Date Of Birth";
+"CompleteProfile.Placeholder.DOB"     = "DD/MM/YYYY";
+
+/* Actions */
+"CompleteProfile.Button.SignUp"       = "Sign up";
+"CompleteProfile.Label.HasAccount"    = "Already have an account?";
+"CompleteProfile.Button.SignIn"       = "Sign In";

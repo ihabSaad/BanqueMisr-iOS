@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB594771D4BB19B82B07F27 /* Pods_CoreBankingAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084C7DA450F860A3CD263412 /* Pods_CoreBankingAPI.framework */; };
+		510B4E102F9A795700862669 /* MoneyTransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B4E0F2F9A795700862669 /* MoneyTransferResponse.swift */; };
+		510B4E132F9A7A1700862669 /* MoneyTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B4E122F9A7A1700862669 /* MoneyTransferService.swift */; };
+		510B4E152F9A7B3800862669 /* MoneyTransferRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B4E142F9A7B3800862669 /* MoneyTransferRepo.swift */; };
+		5188A34B2F88348B00BC5A3E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188A34A2F88348B00BC5A3E /* Transaction.swift */; };
+		5188A34E2F8834C000BC5A3E /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188A34D2F8834C000BC5A3E /* TransactionService.swift */; };
+		5188A3522F8834D400BC5A3E /* TransactionRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188A3512F8834D400BC5A3E /* TransactionRepo.swift */; };
+		518D0A962F8686E1001F091B /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D0A952F8686E1001F091B /* AccountDetails.swift */; };
+		518D0A9A2F868753001F091B /* AccountDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D0A992F868753001F091B /* AccountDetailsService.swift */; };
+		518D0A9C2F868761001F091B /* AccountDetailsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D0A9B2F868761001F091B /* AccountDetailsRepo.swift */; };
+		518F7DC42F9A958E0055DCBC /* TransferDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F7DC32F9A958E0055DCBC /* TransferDraft.swift */; };
+		51B2098E2F58BB7C00CD5A4E /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B2098D2F58BB7C00CD5A4E /* RegisterService.swift */; };
+		51B209902F58BB8B00CD5A4E /* RegisterRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B2098F2F58BB8B00CD5A4E /* RegisterRepo.swift */; };
+		51B209932F58C06100CD5A4E /* UserRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B209922F58C06100CD5A4E /* UserRecord.swift */; };
+		51C9745B2F4E45AF0064514A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9744F2F4E45AF0064514A /* LoginService.swift */; };
+		51C9745C2F4E45AF0064514A /* ExtensionURLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974482F4E45AF0064514A /* ExtensionURLComponents.swift */; };
+		51C9745D2F4E45AF0064514A /* ExtensionEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974472F4E45AF0064514A /* ExtensionEncodable.swift */; };
+		51C9745E2F4E45AF0064514A /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974542F4E45AF0064514A /* LoginForm.swift */; };
+		51C9745F2F4E45AF0064514A /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974522F4E45AF0064514A /* NetworkManger.swift */; };
+		51C974602F4E45AF0064514A /* LoginRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9744E2F4E45AF0064514A /* LoginRepo.swift */; };
+		51C974612F4E45AF0064514A /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9744A2F4E45AF0064514A /* HttpMethod.swift */; };
+		51C974622F4E45AF0064514A /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974462F4E45AF0064514A /* EndPoint.swift */; };
+		51C974632F4E45AF0064514A /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9744B2F4E45AF0064514A /* NetworkLogger.swift */; };
+		51C974642F4E45AF0064514A /* ExtensionURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974492F4E45AF0064514A /* ExtensionURLRequest.swift */; };
+		51C974662F4E45AF0064514A /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9744C2F4E45AF0064514A /* ResponseStatus.swift */; };
+		51C974672F4E45AF0064514A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974552F4E45AF0064514A /* LoginResponse.swift */; };
+		51C974682F4E45AF0064514A /* FailMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C974572F4E45AF0064514A /* FailMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084C7DA450F860A3CD263412 /* Pods_CoreBankingAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreBankingAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510B4E0F2F9A795700862669 /* MoneyTransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferResponse.swift; sourceTree = "<group>"; };
+		510B4E122F9A7A1700862669 /* MoneyTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferService.swift; sourceTree = "<group>"; };
+		510B4E142F9A7B3800862669 /* MoneyTransferRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferRepo.swift; sourceTree = "<group>"; };
+		5121CE982F4E4225001272A9 /* CoreBankingAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreBankingAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5188A34A2F88348B00BC5A3E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5188A34D2F8834C000BC5A3E /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		5188A3512F8834D400BC5A3E /* TransactionRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepo.swift; sourceTree = "<group>"; };
+		518D0A952F8686E1001F091B /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		518D0A992F868753001F091B /* AccountDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsService.swift; sourceTree = "<group>"; };
+		518D0A9B2F868761001F091B /* AccountDetailsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsRepo.swift; sourceTree = "<group>"; };
+		518F7DC32F9A958E0055DCBC /* TransferDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDraft.swift; sourceTree = "<group>"; };
+		51B2098D2F58BB7C00CD5A4E /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		51B2098F2F58BB8B00CD5A4E /* RegisterRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRepo.swift; sourceTree = "<group>"; };
+		51B209922F58C06100CD5A4E /* UserRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecord.swift; sourceTree = "<group>"; };
+		51C974462F4E45AF0064514A /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		51C974472F4E45AF0064514A /* ExtensionEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEncodable.swift; sourceTree = "<group>"; };
+		51C974482F4E45AF0064514A /* ExtensionURLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionURLComponents.swift; sourceTree = "<group>"; };
+		51C974492F4E45AF0064514A /* ExtensionURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionURLRequest.swift; sourceTree = "<group>"; };
+		51C9744A2F4E45AF0064514A /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		51C9744B2F4E45AF0064514A /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		51C9744C2F4E45AF0064514A /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
+		51C9744E2F4E45AF0064514A /* LoginRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepo.swift; sourceTree = "<group>"; };
+		51C9744F2F4E45AF0064514A /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		51C974522F4E45AF0064514A /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		51C974542F4E45AF0064514A /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		51C974552F4E45AF0064514A /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		51C974572F4E45AF0064514A /* FailMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailMessage.swift; sourceTree = "<group>"; };
+		5E1D7E48A692F573B5086991 /* Pods-CoreBankingAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreBankingAPI.release.xcconfig"; path = "Target Support Files/Pods-CoreBankingAPI/Pods-CoreBankingAPI.release.xcconfig"; sourceTree = "<group>"; };
+		F88FA1675D647B4C8512ECE5 /* Pods-CoreBankingAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreBankingAPI.debug.xcconfig"; path = "Target Support Files/Pods-CoreBankingAPI/Pods-CoreBankingAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5121CE9A2F4E4225001272A9 /* CoreBankingAPI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreBankingAPI;
+			sourceTree = "<group>";
+		};
+		51C974692F4E45CD0064514A /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5121CE952F4E4225001272A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB594771D4BB19B82B07F27 /* Pods_CoreBankingAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E13C89E5C6F719D0705E705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				084C7DA450F860A3CD263412 /* Pods_CoreBankingAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510B4E0E2F9A794200862669 /* MoneyTransferResponse */ = {
+			isa = PBXGroup;
+			children = (
+				510B4E0F2F9A795700862669 /* MoneyTransferResponse.swift */,
+			);
+			path = MoneyTransferResponse;
+			sourceTree = "<group>";
+		};
+		510B4E112F9A7A0400862669 /* MoneyTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				510B4E122F9A7A1700862669 /* MoneyTransferService.swift */,
+				510B4E142F9A7B3800862669 /* MoneyTransferRepo.swift */,
+			);
+			path = MoneyTransfer;
+			sourceTree = "<group>";
+		};
+		5121CE8E2F4E4225001272A9 = {
+			isa = PBXGroup;
+			children = (
+				51C974692F4E45CD0064514A /* Core */,
+				51C9745A2F4E45AF0064514A /* Networks */,
+				5121CE992F4E4225001272A9 /* Products */,
+				DA7E98D5406A13EA7EF2B53E /* Pods */,
+				5121CE9A2F4E4225001272A9 /* CoreBankingAPI */,
+				0E13C89E5C6F719D0705E705 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5121CE992F4E4225001272A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5121CE982F4E4225001272A9 /* CoreBankingAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5188A3492F88348200BC5A3E /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				5188A34A2F88348B00BC5A3E /* Transaction.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		5188A34C2F8834B100BC5A3E /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				5188A34D2F8834C000BC5A3E /* TransactionService.swift */,
+				5188A3512F8834D400BC5A3E /* TransactionRepo.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		518D0A942F8686D7001F091B /* AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				518D0A952F8686E1001F091B /* AccountDetails.swift */,
+			);
+			path = AccountDetails;
+			sourceTree = "<group>";
+		};
+		518D0A982F86873D001F091B /* AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				518D0A992F868753001F091B /* AccountDetailsService.swift */,
+				518D0A9B2F868761001F091B /* AccountDetailsRepo.swift */,
+			);
+			path = AccountDetails;
+			sourceTree = "<group>";
+		};
+		518F7DC02F9A957C0055DCBC /* TransferDraft */ = {
+			isa = PBXGroup;
+			children = (
+				518F7DC32F9A958E0055DCBC /* TransferDraft.swift */,
+			);
+			path = TransferDraft;
+			sourceTree = "<group>";
+		};
+		51B2098C2F58B06600CD5A4E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				51B2098D2F58BB7C00CD5A4E /* RegisterService.swift */,
+				51B2098F2F58BB8B00CD5A4E /* RegisterRepo.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		51B209912F58C04D00CD5A4E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				51B209922F58C06100CD5A4E /* UserRecord.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		51C9744D2F4E45AF0064514A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				51C974462F4E45AF0064514A /* EndPoint.swift */,
+				51C974472F4E45AF0064514A /* ExtensionEncodable.swift */,
+				51C974482F4E45AF0064514A /* ExtensionURLComponents.swift */,
+				51C974492F4E45AF0064514A /* ExtensionURLRequest.swift */,
+				51C9744A2F4E45AF0064514A /* HttpMethod.swift */,
+				51C9744B2F4E45AF0064514A /* NetworkLogger.swift */,
+				51C9744C2F4E45AF0064514A /* ResponseStatus.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51C974502F4E45AF0064514A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				51C9744E2F4E45AF0064514A /* LoginRepo.swift */,
+				51C9744F2F4E45AF0064514A /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		51C974512F4E45AF0064514A /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				510B4E112F9A7A0400862669 /* MoneyTransfer */,
+				5188A34C2F8834B100BC5A3E /* Transaction */,
+				518D0A982F86873D001F091B /* AccountDetails */,
+				51B2098C2F58B06600CD5A4E /* Register */,
+				51C974502F4E45AF0064514A /* Login */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		51C974532F4E45AF0064514A /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				51C974522F4E45AF0064514A /* NetworkManger.swift */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		51C974562F4E45AF0064514A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				51C974542F4E45AF0064514A /* LoginForm.swift */,
+				51C974552F4E45AF0064514A /* LoginResponse.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		51C974582F4E45AF0064514A /* FailMessage */ = {
+			isa = PBXGroup;
+			children = (
+				51C974572F4E45AF0064514A /* FailMessage.swift */,
+			);
+			path = FailMessage;
+			sourceTree = "<group>";
+		};
+		51C974592F4E45AF0064514A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				518F7DC02F9A957C0055DCBC /* TransferDraft */,
+				510B4E0E2F9A794200862669 /* MoneyTransferResponse */,
+				5188A3492F88348200BC5A3E /* Transaction */,
+				518D0A942F8686D7001F091B /* AccountDetails */,
+				51B209912F58C04D00CD5A4E /* Register */,
+				51C974562F4E45AF0064514A /* Auth */,
+				51C974582F4E45AF0064514A /* FailMessage */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C9745A2F4E45AF0064514A /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				51C974592F4E45AF0064514A /* Model */,
+				51C974512F4E45AF0064514A /* Layer */,
+				51C9744D2F4E45AF0064514A /* Components */,
+				51C974532F4E45AF0064514A /* Manger */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		DA7E98D5406A13EA7EF2B53E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F88FA1675D647B4C8512ECE5 /* Pods-CoreBankingAPI.debug.xcconfig */,
+				5E1D7E48A692F573B5086991 /* Pods-CoreBankingAPI.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5121CE932F4E4225001272A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5121CE972F4E4225001272A9 /* CoreBankingAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5121CE9F2F4E4225001272A9 /* Build configuration list for PBXNativeTarget "CoreBankingAPI" */;
+			buildPhases = (
+				655DFEDD688379F6E354A0F8 /* [CP] Check Pods Manifest.lock */,
+				5121CE932F4E4225001272A9 /* Headers */,
+				5121CE942F4E4225001272A9 /* Sources */,
+				5121CE952F4E4225001272A9 /* Frameworks */,
+				5121CE962F4E4225001272A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5121CE9A2F4E4225001272A9 /* CoreBankingAPI */,
+				51C974692F4E45CD0064514A /* Core */,
+			);
+			name = CoreBankingAPI;
+			productName = CoreBankingAPI;
+			productReference = 5121CE982F4E4225001272A9 /* CoreBankingAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5121CE8F2F4E4225001272A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					5121CE972F4E4225001272A9 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 5121CE922F4E4225001272A9 /* Build configuration list for PBXProject "CoreBankingAPI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5121CE8E2F4E4225001272A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5121CE992F4E4225001272A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5121CE972F4E4225001272A9 /* CoreBankingAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5121CE962F4E4225001272A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655DFEDD688379F6E354A0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreBankingAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5121CE942F4E4225001272A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5188A34B2F88348B00BC5A3E /* Transaction.swift in Sources */,
+				510B4E132F9A7A1700862669 /* MoneyTransferService.swift in Sources */,
+				51C9745B2F4E45AF0064514A /* LoginService.swift in Sources */,
+				518D0A9A2F868753001F091B /* AccountDetailsService.swift in Sources */,
+				518F7DC42F9A958E0055DCBC /* TransferDraft.swift in Sources */,
+				51C9745C2F4E45AF0064514A /* ExtensionURLComponents.swift in Sources */,
+				5188A3522F8834D400BC5A3E /* TransactionRepo.swift in Sources */,
+				51C9745D2F4E45AF0064514A /* ExtensionEncodable.swift in Sources */,
+				51C9745E2F4E45AF0064514A /* LoginForm.swift in Sources */,
+				51C9745F2F4E45AF0064514A /* NetworkManger.swift in Sources */,
+				51B2098E2F58BB7C00CD5A4E /* RegisterService.swift in Sources */,
+				51C974602F4E45AF0064514A /* LoginRepo.swift in Sources */,
+				51C974612F4E45AF0064514A /* HttpMethod.swift in Sources */,
+				51B209932F58C06100CD5A4E /* UserRecord.swift in Sources */,
+				518D0A962F8686E1001F091B /* AccountDetails.swift in Sources */,
+				510B4E102F9A795700862669 /* MoneyTransferResponse.swift in Sources */,
+				51C974622F4E45AF0064514A /* EndPoint.swift in Sources */,
+				51C974632F4E45AF0064514A /* NetworkLogger.swift in Sources */,
+				51C974642F4E45AF0064514A /* ExtensionURLRequest.swift in Sources */,
+				510B4E152F9A7B3800862669 /* MoneyTransferRepo.swift in Sources */,
+				51C974662F4E45AF0064514A /* ResponseStatus.swift in Sources */,
+				51C974672F4E45AF0064514A /* LoginResponse.swift in Sources */,
+				518D0A9C2F868761001F091B /* AccountDetailsRepo.swift in Sources */,
+				51C974682F4E45AF0064514A /* FailMessage.swift in Sources */,
+				51B209902F58BB8B00CD5A4E /* RegisterRepo.swift in Sources */,
+				5188A34E2F8834C000BC5A3E /* TransactionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5121CE9D2F4E4225001272A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5121CE9E2F4E4225001272A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5121CEA02F4E4225001272A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88FA1675D647B4C8512ECE5 /* Pods-CoreBankingAPI.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.CoreBankingAPI";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5121CEA12F4E4225001272A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1D7E48A692F573B5086991 /* Pods-CoreBankingAPI.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ihabAl-Amir.com.CoreBankingAPI";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5121CE922F4E4225001272A9 /* Build configuration list for PBXProject "CoreBankingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5121CE9D2F4E4225001272A9 /* Debug */,
+				5121CE9E2F4E4225001272A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5121CE9F2F4E4225001272A9 /* Build configuration list for PBXNativeTarget "CoreBankingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5121CEA02F4E4225001272A9 /* Debug */,
+				5121CEA12F4E4225001272A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5121CE8F2F4E4225001272A9 /* Project object */;
+}
